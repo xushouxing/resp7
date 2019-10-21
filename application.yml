@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: config-atguiju-dev
+---
+spring:
+  profiles: test
+  application:
+    name: config-atguiju-test
